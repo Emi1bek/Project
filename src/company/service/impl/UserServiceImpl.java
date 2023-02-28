@@ -31,7 +31,12 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void getAllUsers(User[] users) {
+    public void getAllUsers() {
+
+        for (UserDao u: userDaos
+             ) {
+            System.out.println(u);
+        }
 
     }
 }

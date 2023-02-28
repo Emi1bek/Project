@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="315c7b17-2fca-4f95-a6da-ea31ef8be98c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/company/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/company/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/company/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/company/service/impl/UserServiceImpl.java" afterDir="false" />
+    <list default="true" id="315c7b17-2fca-4f95-a6da-ea31ef8be98c" name="Changes" comment="Реализовано аддЮсер">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/company/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/company/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,11 +70,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677258851034</updated>
-      <workItem from="1677258852234" duration="13068000" />
+      <workItem from="1677258852234" duration="13394000" />
     </task>
+    <task id="LOCAL-00001" summary="Реализовано аддЮсер">
+      <created>1677597763810</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677597763810</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Реализовано аддЮсер" />
+    <option name="LAST_COMMIT_MESSAGE" value="Реализовано аддЮсер" />
   </component>
 </project>
