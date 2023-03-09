@@ -1,12 +1,12 @@
 public class Student {
-    private int id, baa;
+    private int id, age;
     private String fio;
 
 
-    public Student(int id, String fio,int baa) {
+    public Student(int id, String fio,int age) {
         this.id = id;
         this.fio = fio;
-        this.baa = baa;
+        this.age = age;
     }
 
     public Student() {
@@ -28,19 +28,19 @@ public class Student {
         this.fio = fio;
     }
 
-    public int getBaa() {
-        return baa;
+    public int getAge() {
+        return age;
     }
 
-    public void setBaa(int baa) {
-        this.baa = baa;
+    public void setAge(int age) {
+        this.age = age;
     }
 
     @Override
     public String toString() {
         return "Student{" +
                 "id=" + id +
-                ", baa=" + baa +
+                ", baa=" + age +
                 ", fio='" + fio + '\'' +
                 '}';
     }

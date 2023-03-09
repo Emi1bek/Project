@@ -2,31 +2,36 @@ import company.dao.UserDao;
 import company.model.User;
 import company.service.impl.UserServiceImpl;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
         UserServiceImpl userService = new UserServiceImpl();
-        User user = new User();
-        User user1 = new User();
-        User user3= new User();
-        User user2 = new User();
+        User user = new User(1,18,"Emilbek","M");
+        User user1 = new User(2,20,"Gulnur","W");
+        User user3= new User(3,22,"Julduz","W");
+        User user2 = new User(4,26,"Uson","M");
+        User user4 = new User(5,25,"Asan","M");
         UserDao userDao = new UserDao(user);
         UserDao userDao1 = new UserDao(user1);
         UserDao userDao2 = new UserDao(user2);
         UserDao userDao3 = new UserDao(user3);
+        UserDao userDao4 = new UserDao(user4);
         userService.addUser(userDao);
         userService.addUser(userDao1);
         userService.addUser(userDao2);
         userService.addUser(userDao3);
+        userService.addUser(userDao4);
 
         System.out.println();
         userService.getAllUsers();
+        userService.searchId(3);
+        userService.deletedId(1);
+
+
+         userService.getAllUsers();
 
 
 
@@ -36,45 +41,23 @@ public class Main {
 
 
 
-
-
-// кусок кода который не нужен к эторму проекту но нужен ))
-//
-//      //  Double[] array = {100.0,200.0,300.0,400.0};
-//
 //        Student [] student =  {
-//                new Student(1,"Оля",5),
-//                new Student(2,"Юля",4),
-//                new Student(3,"Оля",3),
-//                new Student(4,"Юля",2),
-//                new Student(5,"Оля",1),
-//                new Student(6,"Юля",3),
+//                new Student(1,"Java",18),
+//                new Student(2,"Ava",24),
+//                new Student(3,"Оля",26),
+//                new Student(4,"Java",18),
+//                new Student(5,"ОJля",11),
+//                new Student(6,"Юля",13),
 //        };
-//        List<Integer> list = new ArrayList<>();
-//        Arrays.stream(student).filter(x-> x.getBaa()>=4).forEach(System.out::println);
-//        long s = Arrays.stream(student).filter(x -> x.getBaa() == 2).count();
-//        //баалардын максимальное чыгарып берет
-//
-//        Optional<Student> optionalStudent = Stream.of(student).max((x,y)->Integer.compare(x.getBaa(),y.getBaa()));
-////
-////        System.out.println(s);
-////        System.out.println(Arrays.stream(student).filter(x -> x.getBaa() >= 4).count());
-//        System.out.println(optionalStudent);
-//
-//       // long c =list.stream().filter(x-> x.ge)
 //
 //
 //
+//      Arrays.stream(student).filter(x-> x.getAge()>=18).forEach(x-> System.out.println(x+"Жашы жеткен"));
+//        Arrays.stream(student).filter(x-> x.getAge()<=18).forEach(x-> System.out.println(x+"Жашы жете элек"));
+//        System.out.println(""+Arrays.stream(student).filter(x -> x.getAge() >= 18).count());
 //
-//
-//
-//
-//        // Arrays.stream(array).map(x-> x/(100/10)).forEach(System.out::println);
-//
-//
-//        // Arrays.stream(array).forEach(x-> System.out.println(x*x));
 
-// конец кусок кода
+
 
 
 
