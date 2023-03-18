@@ -1,8 +1,8 @@
 package company.model;
 
 public class User {
-    private int id,age;
-    private String name,Gender;
+    private int id, age;
+    private String name, Gender;
 
     public User(int id, int age, String name, String gender) {
         this.id = id;

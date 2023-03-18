@@ -36,22 +36,10 @@ public class UserServiceImpl implements UserService {
             }
             System.out.println(userDaoArrayList.toString());
         }
-
-//        for (int j = 0; j <= 5; j++) {
-//            if (userDaoArrayList.get(j).getUsers().getId() == id) {
-//                userDaoArrayList.remove(j);
-//            }
-//            System.out.println(userDaoArrayList.get(j));
-//        }
-
-        // System.out.println(userDaoArrayList.toString());
-
     }
 
     @Override
     public void getAllUsers() {
-
-        // System.out.println(userDaoArrayList.toString());
         for (UserDao u : userDaoArrayList) {
             System.out.println(u);
         }

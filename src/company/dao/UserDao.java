@@ -24,8 +24,6 @@ public class UserDao {
 
     @Override
     public String toString() {
-        return "UserDao{" +
-                "users=" + users +
-                '}';
+        return "UserDao{" + "users=" + users + '}';
     }
 }

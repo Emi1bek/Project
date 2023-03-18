@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="315c7b17-2fca-4f95-a6da-ea31ef8be98c" name="Changes" comment="Реализовано аддЮсер, реализовано гетОЛюусердаео">
+    <list default="true" id="315c7b17-2fca-4f95-a6da-ea31ef8be98c" name="Changes" comment="все готово">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/company/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/company/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/company/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/company/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +43,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/TaskFilReader&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/Project&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -71,7 +74,10 @@
       <option name="presentableId" value="Default" />
       <updated>1677258851034</updated>
       <workItem from="1677258852234" duration="19316000" />
-      <workItem from="1678373387715" duration="5522000" />
+      <workItem from="1678373387715" duration="5704000" />
+      <workItem from="1678547135242" duration="1284000" />
+      <workItem from="1678982636229" duration="27000" />
+      <workItem from="1679123256993" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary="Реализовано аддЮсер">
       <created>1677597763810</created>
@@ -87,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677598067933</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="все готово">
+      <created>1678379424867</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678379424867</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,7 +109,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Реализовано аддЮсер" />
     <MESSAGE value="Реализовано аддЮсер, реализовано гетОЛюусердаео" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализовано аддЮсер, реализовано гетОЛюусердаео" />
+    <MESSAGE value="все готово" />
+    <option name="LAST_COMMIT_MESSAGE" value="все готово" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
